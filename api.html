@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Giphy API</title>
+  
+  <link rel="stylesheet" type="text/css" href="assets/css/apistyle.css">
+  
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Actor Search</h1>
+
+    <!-- Rendered buttons will get dumped Here  -->
+    <button data-actor="actor-name">Jared Leto</button>
+    <button data-actor="actor-name">Ryan Gosling</button>
+    <button data-actor="actor-name">Jason Statham</button>
+    <button data-actor="actor-name">Bradley Cooper</button>
+    <button data-actor="actor-name">The Rock</button>
+
+    <!-- Actors will get dumped dere -->
+    <div id="actors-view"></div>
+
+    <form id="actor-form">
+      <label for="actor-input">Add a Famous Actor</label>
+      <input type="text" id="actor-input"><br>
+
+      <!-- Button triggers new actor to be added -->
+      <input id="add-actor" type="Submit" value="Submit">
+    </form>
+
+    
+    <!-- jQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="assets/javascript/api.js">
+
+    </script>
+  </div>
+</body>
+
+</html>
